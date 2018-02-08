@@ -14,12 +14,18 @@ var thirdString = firstString + secondString
 print(thirdString)
 
 //Variable Coding Challenege #2
-let celcius: Float
-let fahrenheit: Float
-
+let celcius: Float = (50-32)/1.8
+var fahrenheit: Float = 50
+var celciusMessage = "Today it is 10 degrees Celcius"
+print(celciusMessage)
 
 
 //Boolean Variables Coding Challenge #1
+var numberOne:intmax_t
+numberOne = 1
+var numberTwo:intmax_t
+numberTwo = 2
+let numberThree = numberOne + numberTwo
 
 //If Statement Coding Challenge #1
 var shortString = "This will be the shorter string"
@@ -32,5 +38,10 @@ if shortString < longerString {
 }
 print(message)
 
-
-
+var secondMessage: String
+if shortString > longerString {
+    secondMessage = "this should not be inverted"
+} else {
+    secondMessage = "But it is inverted"
+}
+print(secondMessage)
